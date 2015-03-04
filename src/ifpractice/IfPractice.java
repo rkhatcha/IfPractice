@@ -17,7 +17,7 @@ public class IfPractice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.print("Please enter an integer: ");
+        System.out.print("Please enter an integer for y: ");
 
         //Get y from the user.
         int y;
@@ -29,9 +29,10 @@ public class IfPractice {
 
         int x = 5;
 
-        //Set x to 0 when y is 20.
+        //Set both x and y to 0 when y is 20.
         if (y == 20) {
             x = 0;
+            y = 0;
         }
 
         //Output both x and y.
